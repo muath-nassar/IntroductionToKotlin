@@ -74,6 +74,20 @@ fun main() {
         println("do while iteration ${max++}")
     } while (max <= 10)
 
+    // brake is used to break the loop
+    println("break key word in loops")
+    for (i in 1..5){
+        if (i == 3) break
+        println(i)
+    }
+    // continue is used to skip the current iteration in the loop
+    println("continue key word in loops")
+    for (i in 1..5){
+        if (i == 3) continue
+        println(i)
+    }
+
+    // Kotlin's if statement is like Java's if statement
     // instead of switch in Java, Kotlin has when
     val j = 5
     when (j) {
@@ -93,4 +107,5 @@ fun main() {
             println("case 5")
         }
     }
+
 }
