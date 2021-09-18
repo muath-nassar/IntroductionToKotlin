@@ -1,7 +1,7 @@
 fun main() {
     //Data types
     val numInt: Int = 5
-    val numFloat: Float = 5.2F // = 5.2f or
+    val numFloat: Float = 5.2F // = 5.2f
     val numDouble: Double = 5.2
     val char: Char = 'A'
     val numShort: Short = 200
