@@ -31,7 +31,7 @@ fun main() {
     val age = 28 // age will be Int
 
     //-----------------val or var
-    var collage = "Engineering" // var can be reassigned
+    var collage = "Engineةعering" // var can be reassigned
     collage = "Information Technology" // this is okay
 
     val university = "Azhar" // val can't be reassigned
@@ -53,7 +53,7 @@ fun main() {
     }
     // to do back counter
     println("to do back counter ")
-    for (i in 10 downTo 1) {
+    for (i in 10 downTo 1 ) {
         println(i)
     }
     // to iterate with neglecting last element
